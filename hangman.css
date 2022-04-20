@@ -1,0 +1,16 @@
+body {
+  background-color: lightgrey;
+}
+.insert {
+  font-size: 22px;
+  color: black;
+  padding: 1px 5px;
+}
+.label {
+  color: red;
+  font-size: 22px;
+}
+.fa-heart {
+  color: red;
+  padding: 15px 5px;
+}
