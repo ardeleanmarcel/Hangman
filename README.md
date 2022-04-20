@@ -1,2 +1,2 @@
 # Hangman
-You have to guess an random word. You have 7 lifes.
+You have to guess a random word. You have 7 lives.
