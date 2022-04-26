@@ -2,23 +2,23 @@
 <head>
 	<center>
 		<h1> Gallows game</h1>
-		<span class="label" id="life" type="number">7</span>
+		<span class="lifes" type="number" id="life">7</span>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<i class="fa fa-heart"></i>
+    <i class="fa fa-heart" style="font-size: 22px; color: red"></i>
 		<br>
 		<br>
-		<div class ="insert" id="final_word"></div>
+		<div class="insert" id="wordDisplayed"></div>
 		<br>
 		<br>
 		<span class="insert">Insert a letter:</span>
-		<input class="insert" type="text", id="letter">
-		<button class="insert" type="button" onclick="isInWord();">Send</button>
+		<input class="insert" type="text" id="letterInserted">
+		<button class="insert" type="button" onclick="searchForTheLetter();">Send</button>
 		<br>
 		<br>
-		<div class="insert" id="isOrNotInTheWord"></div>
+		<div class="insert" id="verificationMessage"></div>
 		<br>
 		<br>
-		<div class="insert" id="displayLetters"></div>
+		<div class="insert" id="lettersDisplayed"></div>
 	</center>
 </head>
 </html>
